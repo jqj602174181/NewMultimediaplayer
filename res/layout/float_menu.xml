@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/imageBtn"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/image"
+        android:text="图片库" />
+
+    <Button
+        android:id="@+id/vedioBtn"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/video"
+        android:text="视频库" />
+
+    <Button
+        android:id="@+id/typeBtn"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/type"
+        android:text="类别" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/close"
+        android:text="关闭"
+        android:visibility="gone" />
+
+</LinearLayout>

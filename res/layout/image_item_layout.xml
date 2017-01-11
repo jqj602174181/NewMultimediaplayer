@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="#000000"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/image_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="this is an image about the movie"
+        android:scaleType="centerCrop" />
+
+</RelativeLayout>
